@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script src="./client.js" defer></script>
+    </head>
+    <body style="background-color: black; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <fieldset>
+            <legend>Tasks</legend>
+            <button id="btnGitFetch">Run Git Fetch</button>
+            <button id="btnGitPull">Run Git Pull</button>
+            <button id="btnCompileWin">Compile for Windows</button>
+            <button id="btnCompileAnd">Compile for Android</button>
+            <button id="btnCompileWeb">Compile for HTML5</button>
+            <button id="btnTestWeb">Test HTML5</button>
+            <input type="text" id="args" placeholder="compilation args">
+        </fieldset>
+        <fieldset>
+            <legend>Logs</legend>
+            <div id="logs">
+
+            </div>
+        </fieldset>
+    </body>
+</html>
